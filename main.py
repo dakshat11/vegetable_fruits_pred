@@ -36,6 +36,7 @@ elif app_mode == "About Us":
     st.subheader("Dataset Info")
     st.text("Train: 100 images/category\nTest: 10 images/category\nValidation: 10 images/category")
 
+    st.header("By- Dakshat Pawale")
 # Prediction Page
 elif app_mode == "Prediction":
     st.header("Model Prediction", anchor="prediction")
